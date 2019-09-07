@@ -1,0 +1,85 @@
+.timer-body{
+    background-image: radial-gradient(#444, #111);
+    width:300px;
+    height:auto;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 2px #222 solid;
+    
+    
+}
+
+.timer-body h3{
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-style: italic;
+    padding-bottom: 5px;
+}
+
+.timer-display{
+    width:250px;
+    height:auto;
+    background-color: #a9b5a6;
+    border-radius: 10px;
+    border: 3px solid yellow;
+    box-shadow:  1px 1px 18px inset;
+    text-align: center;
+}
+
+.timer{
+    font-size: 108px;
+    padding:5px 21px;
+    font-family: 'digital-7';
+    
+}
+
+@font-face{
+    font-family: 'digital-7';
+    src: url('./digital-7.ttf');
+}
+
+
+.btn-light{
+    background-color: green;
+    border-radius: 50%;
+    width:10px;
+    height: 10px;
+    padding:1px;
+    margin:5px;
+}
+
+.off{
+    background-color: green;
+}
+
+.on{
+    background-color: greenyellow;
+    box-shadow: 1px 1px 20px greenyellow;
+}
+
+.btn-start{
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    position:relative;
+    font-size: 22px;
+    background-color: none;
+    padding:5px 10px;
+    background-image: linear-gradient(to bottom, #444,#111);
+    margin:8px;
+    border:1px solid #555;
+    border-radius: 15px;
+}
+
+.btn-start:focus{
+    background-image: radial-gradient(#111,#444);
+    outline: none;
+}
+
+.button-row{
+    display:flex;
+}
